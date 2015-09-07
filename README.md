@@ -1,2 +1,0 @@
-# AnvarTurobov.github.io
-Portfolio
