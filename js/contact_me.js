@@ -1,13 +1,3 @@
-/*<form action="//formspree.io/your@email.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
-*/
-
-
-
 /*$(function() {
 
     $("input,textarea").jqBootstrapValidation({
@@ -72,9 +62,10 @@
         $(this).tab("show");
     });
 });
-
+*/
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+/*$('#name').focus(function() {
     $('#success').html('');
-});*/
+});
+*/
