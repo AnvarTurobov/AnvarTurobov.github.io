@@ -38,11 +38,6 @@ img:hover {
   min-height: 100vh;
 }
 
-#map {
-  /*padding-top: 60px;*/
-  min-width: 100vw;
-  min-height: 100vh;
-}
 
 #download {
   padding-top: 60px;
@@ -52,6 +47,11 @@ img:hover {
 
 #contact {
   padding-top: 100px;
+  min-width: 100vw;
+  min-height: 80vh;
+}
+
+#footer {
   min-width: 100vw;
   min-height: 100vh;
 }

@@ -4,19 +4,126 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/*.fa fa-code {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}*/
+ section#contact {
+     background-color: {{ site.color.primary-dark }};
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ section#contact .section-heading {
+     color: #fff;
+ }
+
+ section#contact .form-group {
+     margin-bottom: 25px;
+ }
+
+ section#contact .form-group input,
+ section#contact .form-group textarea {
+     padding: 20px;
+ }
+
+ section#contact .form-group input.form-control {
+     height: auto;
+ }
+
+ section#contact .form-group textarea.form-control {
+     height: 236px;
+ }
+
+ section#contact .form-control:focus {
+     border-color: #{{ site.color.primary }};
+     box-shadow: none;
+ }
+
+ section#contact::-webkit-input-placeholder {
+     text-transform: uppercase;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+     color: #bbb;
+ }
+
+ section#contact:-moz-placeholder {
+     text-transform: uppercase;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+     color: #bbb;
+ }
+
+ section#contact::-moz-placeholder {
+     text-transform: uppercase;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+     color: #bbb;
+ }
+
+ section#contact:-ms-input-placeholder {
+     text-transform: uppercase;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+     color: #bbb;
+ }
+
+ section#contact .text-danger {
+     color: #e74c3c;
+ }
+
+ footer {
+     padding: 25px 0;
+     text-align: center;
+ }
+
+ footer span.copyright {
+     text-transform: uppercase;
+     text-transform: none;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     line-height: 40px;
+ }
+
+ footer ul.quicklinks {
+     margin-bottom: 0;
+     text-transform: uppercase;
+     text-transform: none;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     line-height: 40px;
+ }
+ ul.social-buttons {
+     margin-bottom: 0;
+ }
+
+ ul.social-buttons li a {
+     display: block;
+     width: 40px;
+     height: 40px;
+     border-radius: 100%;
+     font-size: 20px;
+     line-height: 40px;
+     outline: 0;
+     color: #fff;
+     background-color: #222;
+     -webkit-transition: all .3s;
+     -moz-transition: all .3s;
+     transition: all .3s;
+ }
+
+ ul.social-buttons li a:hover,
+ ul.social-buttons li a:focus,
+ ul.social-buttons li a:active {
+     background-color: #{{ site.color.primary }};
+ }
+
+ .btn:focus,
+ .btn:active,
+ .btn.active,
+ .btn:active:focus {
+     outline: 0;
+ }
 
 #particles-js {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
- /*   bottom: -500px;*/
 }
 
 
@@ -154,8 +261,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(/img/background2.jpg) no-repeat bottom center scroll;
+  /*  background-color: {{ site.color.primary-dark }};*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -350,13 +457,13 @@ ul.banner-social-buttons li {
     }
 }
 
-footer {
+/*footer {
     padding: 50px 0;
 }
 
 footer p {
     margin: 0;
-}
+}*/
 
 ::-moz-selection {
     text-shadow: none;
