@@ -3,6 +3,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ .fa-inverse {
+     color: #219ab3;
+ }
 
  .btn {
     border: 1px solid #219ab3;
@@ -340,33 +343,10 @@ h6 {
     }
 }
 
-/*@-moz-keyframes pulse {    
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-.content-section {
-    padding-top: 100px;
-}*/
-
-
-
 
 .list-inline {
     padding-left: 0;
-    margin-left: 26px;
+    margin-left: -4px;
     list-style: none;
 }
 

@@ -9,6 +9,18 @@ img:hover {
     opacity: 1.0;
 }
 
+.fa-inverse:hover {
+    color: #219ab3;
+}
+
+.fa-inverse: {
+    border color: #219ab3;
+}
+
+/*.fa:hover {
+color:red;
+}*/
+
 .row {
   margin: 0px 60px 0px 60px;
 }
@@ -35,7 +47,7 @@ img:hover {
 #about {
   min-width: 100vw;
   min-height: 100vh;
-  padding-bottom: 60px;
+  padding-top: 140px;
 }
 
 
