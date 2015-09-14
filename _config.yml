@@ -1,16 +1,19 @@
 # Site settings
 title: Anvar Turobov
 email: anvar.turobov@gmail.com
-url: https://anvarturobov.com
+url: https://anvarturobov.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+
 # Footer settings
 footer: Anvar Turobov
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -20,6 +23,7 @@ social:
   url: http://github.com/anvarturobov
 - title: linkedin
   url: https://uk.linkedin.com/in/anvar777
+
 
 # Build settings
 markdown: kramdown
